@@ -2,7 +2,7 @@ from app import create_app, socketio
 import sys
 
 # defaults
-PORT = 80
+PORT = 8000
 HOST = '0.0.0.0'
 
 if len(sys.argv) != 1 and len(sys.argv) != 3:
@@ -16,4 +16,4 @@ if len(sys.argv) == 3:
 app = create_app(debug=True)
 
 if __name__ == '__main__':
-    socketio.run(app, host=HOST) #, port=PORT, use_reloader=False)
+    socketio.run(app, host=HOST, port=PORT, use_reloader=False)
