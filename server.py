@@ -2,8 +2,8 @@ from app import create_app, socketio
 import sys
 
 # defaults
-PORT = 8000
-HOST = '0.0.0.0'
+PORT = 80
+HOST = 'https://jobinbrew.azurewebsites.net'
 
 if len(sys.argv) != 1 and len(sys.argv) != 3:
     print("Usage: python {} OR python {} <HostName> <PortNumber>".format(sys.argv[0], sys.argv[0]))
