@@ -3,7 +3,7 @@ import sys
 
 # defaults
 PORT = 8000
-HOST = 'https://jobinbrew.azurewebsites.net'
+HOST = '0.0.0.0'
 
 if len(sys.argv) != 1 and len(sys.argv) != 3:
     print("Usage: python {} OR python {} <HostName> <PortNumber>".format(sys.argv[0], sys.argv[0]))
