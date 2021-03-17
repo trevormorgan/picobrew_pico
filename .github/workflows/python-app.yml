@@ -75,7 +75,7 @@ jobs:
  build-and-deploy:
   runs-on: ubuntu-latest
   steps:
-  # checkout the repo 
+  # checkot the repo 
   - uses: actions/checkout@master
   # setup python
   - name: Setup Python
