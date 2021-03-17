@@ -2,7 +2,7 @@ from app import create_app, socketio
 import sys
 
 # defaults
-PORT = 80
+PORT = 8000
 HOST = 'https://jobinbrew.azurewebsites.net'
 
 if len(sys.argv) != 1 and len(sys.argv) != 3:
