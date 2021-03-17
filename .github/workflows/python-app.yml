@@ -47,7 +47,7 @@ jobs:
     - uses: azure/webapps-deploy@v2
       with:
         app-name: 'jobinbrew'
-        #slot-name: 'production'
+        slot-name: 'production'
         package: .
     - name: Sign out of Azure
       run: |
