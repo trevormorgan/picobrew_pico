@@ -36,7 +36,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-
     - name: Sign in to Azure 
     # Use the GitHub secret you added
     - uses: azure/login@v1
